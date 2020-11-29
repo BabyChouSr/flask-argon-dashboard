@@ -5,4 +5,4 @@ flask_wtf
 flask_sqlalchemy
 flask_bcrypt
 gunicorn
-
+email_validator
