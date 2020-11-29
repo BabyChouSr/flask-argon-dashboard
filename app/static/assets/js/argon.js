@@ -962,10 +962,10 @@ var OrdersChart = (function() {
 				}
 			},
 			data: {
-				labels: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+				labels: ['Acres Burned', 'Longitude', 'Latitude', 'Crew Involved'],
 				datasets: [{
 					label: 'Sales',
-					data: [25, 20, 30, 22, 17, 29]
+					data: [48, 23, 18,11]
 				}]
 			}
 		});
@@ -981,6 +981,10 @@ var OrdersChart = (function() {
 	}
 
 })();
+
+
+
+
 
 //
 // Charts

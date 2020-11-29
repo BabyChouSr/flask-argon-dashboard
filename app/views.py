@@ -15,7 +15,7 @@ from werkzeug.exceptions import HTTPException, NotFound, abort
 # App modules
 from app        import app, lm, db, bc
 from app.models import User
-from app.forms  import LoginForm, RegisterForm
+from app.forms  import LoginForm, RegisterForm, MapForm
 
 # provide login manager with load_user callback
 @lm.user_loader
@@ -110,26 +110,53 @@ def login():
                             content=render_template( 'pages/login.html', form=form, msg=msg ) )
 
 # App main route + generic routing
-@app.route('/', defaults={'path': 'index.html'})
-@app.route('/<path>')
+@app.route('/', defaults={'path': 'index.html'}, methods = ['GET', 'POST'])
+@app.route('/<path>', methods = ['GET', 'POST'])
 def index(path):
 
-    if not current_user.is_authenticated:
-        return redirect(url_for('login'))
-
     content = None
+    return render_template('layouts/default.html',
+                                content=render_template( 'pages/'+path )  )
 
-    try:
+@app.route('/index2013')
+def index2013():
+    return render_template('layouts/default.html',
+                            content=render_template( 'pages/index2013.html') )
 
-        # try to match the pages defined in -> pages/<input file>
-        return render_template('layouts/default.html',
-                                content=render_template( 'pages/'+path) )
-    except:
-        
-        return render_template('layouts/auth-default.html',
-                                content=render_template( 'pages/404.html' ) )
+@app.route('/index2014')
+def index2014():
+    return render_template('layouts/default.html',
+                            content=render_template( 'pages/index2014.html') )                           
+
+@app.route('/index2015')
+def index2015():
+    return render_template('layouts/default.html',
+                            content=render_template( 'pages/index2015.html') )
+
+@app.route('/index2016')
+def index2016():
+    return render_template('layouts/default.html',
+                            content=render_template( 'pages/index2016.html') )       
+@app.route('/index2017')
+def index2017():
+    return render_template('layouts/default.html',
+                            content=render_template( 'pages/index2017.html') )                            
+
+@app.route('/index2018')
+def index2018():
+    return render_template('layouts/default.html',
+                            content=render_template( 'pages/index2018.html') )   
+@app.route('/index2019')
+def index2019():
+    return render_template('layouts/default.html',
+                            content=render_template( 'pages/index2019.html') )
+
 
 # Return sitemap 
 @app.route('/sitemap.xml')
 def sitemap():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'sitemap.xml')
+
+@app.route('/maps/<path>')
+def loadMap(path):
+    return render_template("maps/" + path)

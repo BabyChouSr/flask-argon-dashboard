@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c287872502164f1395e165a3034f6df0 {
+                    position: relative;
+                    width: 75.0%;
+                    height: 75.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c287872502164f1395e165a3034f6df0" ></div>
+        
+</body>
+<script>    
+    
+            var map_c287872502164f1395e165a3034f6df0 = L.map(
+                "map_c287872502164f1395e165a3034f6df0",
+                {
+                    center: [36.0, -120.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f47a06fb0dde4d928c049a953d0caea6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+            var circle_266672a6994f4fd8a05859b47d461122 = L.circle(
+                [36.874, -118.905],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19469.399066226983, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_f317850e4ce64f599209337fc5505400 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbf7e9cd13af41b18e8969257f72d086 = $(`<div id="html_cbf7e9cd13af41b18e8969257f72d086" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/31/rough-fire/ - Year:2015 - Acres Burned:151623.0</div>`)[0];
+            popup_f317850e4ce64f599209337fc5505400.setContent(html_cbf7e9cd13af41b18e8969257f72d086);
+        
+
+        circle_266672a6994f4fd8a05859b47d461122.bindPopup(popup_f317850e4ce64f599209337fc5505400)
+        ;
+
+        
+    
+    
+            var circle_8cbdf2f9fc37466a8576289d6c164790 = L.circle(
+                [38.886353799999995, -122.47624750000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13175.545529502753, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_768420a4e61244c2aa3738f09038fc06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7d87c037e14460ea9b9c979bfc2a679 = $(`<div id="html_b7d87c037e14460ea9b9c979bfc2a679" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/29/rocky-fire/ - Year:2015 - Acres Burned:69438.0</div>`)[0];
+            popup_768420a4e61244c2aa3738f09038fc06.setContent(html_b7d87c037e14460ea9b9c979bfc2a679);
+        
+
+        circle_8cbdf2f9fc37466a8576289d6c164790.bindPopup(popup_768420a4e61244c2aa3738f09038fc06)
+        ;
+
+        
+    
+    
+            var circle_4be6d059dbd348b1b855b23ddb50d989 = L.circle(
+                [34.160277777778, -116.89277777778],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8854.236274236191, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_9e08626e6df148c78db973b98293bda6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fda4227602f444f49e395b74458bedf0 = $(`<div id="html_fda4227602f444f49e395b74458bedf0" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/17/lake-fire/ - Year:2015 - Acres Burned:31359.0</div>`)[0];
+            popup_9e08626e6df148c78db973b98293bda6.setContent(html_fda4227602f444f49e395b74458bedf0);
+        
+
+        circle_4be6d059dbd348b1b855b23ddb50d989.bindPopup(popup_9e08626e6df148c78db973b98293bda6)
+        ;
+
+        
+    
+    
+            var circle_182eacd526844701a409611bb2608762 = L.circle(
+                [38.8142503, -122.48673190000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7924.329624643336, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_aa5d1890dfb1452a896aedb6ab6b8ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b72bf5c86c75402caa348165c371f796 = $(`<div id="html_b72bf5c86c75402caa348165c371f796" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/9/jerusalem-fire/ - Year:2015 - Acres Burned:25118.0</div>`)[0];
+            popup_aa5d1890dfb1452a896aedb6ab6b8ca1.setContent(html_b72bf5c86c75402caa348165c371f796);
+        
+
+        circle_182eacd526844701a409611bb2608762.bindPopup(popup_aa5d1890dfb1452a896aedb6ab6b8ca1)
+        ;
+
+        
+    
+    
+            var circle_6b96e2c9a9094ced8a7bc0a7880e7c07 = L.circle(
+                [38.8142503, -122.48673190000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7924.329624643336, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_bda745e53f0843039e181784819ba7d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85f0aef9e3864aadbd2b62c35030c0d4 = $(`<div id="html_85f0aef9e3864aadbd2b62c35030c0d4" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/9/jerusalem-fire/ - Year:2015 - Acres Burned:25118.0</div>`)[0];
+            popup_bda745e53f0843039e181784819ba7d6.setContent(html_85f0aef9e3864aadbd2b62c35030c0d4);
+        
+
+        circle_6b96e2c9a9094ced8a7bc0a7880e7c07.bindPopup(popup_bda745e53f0843039e181784819ba7d6)
+        ;
+
+        
+    
+    
+            var circle_d0cad7ed57ce4c9aa9da58b417167cb5 = L.circle(
+                [40.938, -120.105],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5140.52526498995, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_0546ec8eec814bec90486615c09c2c70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5134657f82648cc8dd28a30428d254d = $(`<div id="html_f5134657f82648cc8dd28a30428d254d" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/3/dodge-fire/ - Year:2015 - Acres Burned:10570.0</div>`)[0];
+            popup_0546ec8eec814bec90486615c09c2c70.setContent(html_f5134657f82648cc8dd28a30428d254d);
+        
+
+        circle_d0cad7ed57ce4c9aa9da58b417167cb5.bindPopup(popup_0546ec8eec814bec90486615c09c2c70)
+        ;
+
+        
+    
+    
+            var circle_4e4ea8e6b5c742518c117c853c849655 = L.circle(
+                [36.24, -118.54],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4177.3197148410845, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_39f7bbf3579140dea89a35878fcd3ebc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1525aab3167b479c9346fd73e6e3f33f = $(`<div id="html_1525aab3167b479c9346fd73e6e3f33f" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/19/cabin-fire/ - Year:2015 - Acres Burned:6980.0</div>`)[0];
+            popup_39f7bbf3579140dea89a35878fcd3ebc.setContent(html_1525aab3167b479c9346fd73e6e3f33f);
+        
+
+        circle_4e4ea8e6b5c742518c117c853c849655.bindPopup(popup_39f7bbf3579140dea89a35878fcd3ebc)
+        ;
+
+        
+    
+    
+            var circle_bb36ce0e0afb411aa9e521811850e5bf = L.circle(
+                [37.279722, -119.50013999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3775.5794257305724, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_6c3123f8ed3e4c549d87e39546155893 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5419becd32d4cd3aaf43b2b89d6b3af = $(`<div id="html_b5419becd32d4cd3aaf43b2b89d6b3af" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/25/willow-fire/ - Year:2015 - Acres Burned:5702.0</div>`)[0];
+            popup_6c3123f8ed3e4c549d87e39546155893.setContent(html_b5419becd32d4cd3aaf43b2b89d6b3af);
+        
+
+        circle_bb36ce0e0afb411aa9e521811850e5bf.bindPopup(popup_6c3123f8ed3e4c549d87e39546155893)
+        ;
+
+        
+    
+    
+            var circle_2145ce3bfb5e4421ba05dd3191b38df9 = L.circle(
+                [41.398999999999994, -121.39200000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3486.760674322228, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_480b95c7377d4312b2c78ffdf6e4f82f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a420e2fb1984ab8ad1678f813c0f265 = $(`<div id="html_9a420e2fb1984ab8ad1678f813c0f265" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/30/frog-fire/ - Year:2015 - Acres Burned:4863.0</div>`)[0];
+            popup_480b95c7377d4312b2c78ffdf6e4f82f.setContent(html_9a420e2fb1984ab8ad1678f813c0f265);
+        
+
+        circle_2145ce3bfb5e4421ba05dd3191b38df9.bindPopup(popup_480b95c7377d4312b2c78ffdf6e4f82f)
+        ;
+
+        
+    
+    
+            var circle_ba84c31cd64d4258a0d6c5537b2c198d = L.circle(
+                [34.339, -117.478],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3259.601202601324, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_183f5b163c464b3aba9dbac63da56e43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_274ea5026c4044fe9b07ce8dd5988abe = $(`<div id="html_274ea5026c4044fe9b07ce8dd5988abe" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/17/north-fire/ - Year:2015 - Acres Burned:4250.0</div>`)[0];
+            popup_183f5b163c464b3aba9dbac63da56e43.setContent(html_274ea5026c4044fe9b07ce8dd5988abe);
+        
+
+        circle_ba84c31cd64d4258a0d6c5537b2c198d.bindPopup(popup_183f5b163c464b3aba9dbac63da56e43)
+        ;
+
+        
+    
+    
+            var circle_b3402272e56e44048215878b4773fcfa = L.circle(
+                [37.3845, -121.3732],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2598.076211353316, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_828ecc478aff4ce2b2296efadcc9f1da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2beeaa7539b046dbaa200f20c58b206b = $(`<div id="html_2beeaa7539b046dbaa200f20c58b206b" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/19/tesla-fire/ - Year:2015 - Acres Burned:2700.0</div>`)[0];
+            popup_828ecc478aff4ce2b2296efadcc9f1da.setContent(html_2beeaa7539b046dbaa200f20c58b206b);
+        
+
+        circle_b3402272e56e44048215878b4773fcfa.bindPopup(popup_828ecc478aff4ce2b2296efadcc9f1da)
+        ;
+
+        
+    
+    
+            var circle_4edf3cf52f644d4eb77e098ba4b3113a = L.circle(
+                [35.3477, -120.6269],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2472.852603775648, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_79b6473bee764f63be1492f0867cf60a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce2ac4c4dc5d415f85c9a2ed365939b6 = $(`<div id="html_ce2ac4c4dc5d415f85c9a2ed365939b6" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/16/cuesta-fire/ - Year:2015 - Acres Burned:2446.0</div>`)[0];
+            popup_79b6473bee764f63be1492f0867cf60a.setContent(html_ce2ac4c4dc5d415f85c9a2ed365939b6);
+        
+
+        circle_4edf3cf52f644d4eb77e098ba4b3113a.bindPopup(popup_79b6473bee764f63be1492f0867cf60a)
+        ;
+
+        
+    
+    
+            var circle_330fa23824ff4b8cba0840db95a047ea = L.circle(
+                [39.192088, -120.88231299999998],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2400.0, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_30223178a0224556a5f90b204bd792b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49c4837dbd9945c993f6d95b60dba979 = $(`<div id="html_49c4837dbd9945c993f6d95b60dba979" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/25/lowell-fire/ - Year:2015 - Acres Burned:2304.0</div>`)[0];
+            popup_30223178a0224556a5f90b204bd792b0.setContent(html_49c4837dbd9945c993f6d95b60dba979);
+        
+
+        circle_330fa23824ff4b8cba0840db95a047ea.bindPopup(popup_30223178a0224556a5f90b204bd792b0)
+        ;
+
+        
+    
+    
+            var circle_d68abea2a0754508b302fefdcdaef0dc = L.circle(
+                [40.924, -123.16799999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1963.415391607186, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_9e01d8f7616942759fc301d834f6248a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c875d284ebb049b4a4491f9d02372e96 = $(`<div id="html_c875d284ebb049b4a4491f9d02372e96" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/10/saddle-fire/ - Year:2015 - Acres Burned:1542.0</div>`)[0];
+            popup_9e01d8f7616942759fc301d834f6248a.setContent(html_c875d284ebb049b4a4491f9d02372e96);
+        
+
+        circle_d68abea2a0754508b302fefdcdaef0dc.bindPopup(popup_9e01d8f7616942759fc301d834f6248a)
+        ;
+
+        
+    
+    
+            var circle_442e558159bf4b7b9367ec534af15e85 = L.circle(
+                [36.3699644, -121.589554],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1647.7257053284081, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_7f0b896f9f864515b05d59c47bd2bd54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a87441a4a8dd46b29803da71abeb0c55 = $(`<div id="html_a87441a4a8dd46b29803da71abeb0c55" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/9/19/tassajara-fire/ - Year:2015 - Acres Burned:1086.0</div>`)[0];
+            popup_7f0b896f9f864515b05d59c47bd2bd54.setContent(html_a87441a4a8dd46b29803da71abeb0c55);
+        
+
+        circle_442e558159bf4b7b9367ec534af15e85.bindPopup(popup_7f0b896f9f864515b05d59c47bd2bd54)
+        ;
+
+        
+    
+    
+            var circle_d810ebc2da10468dbb1abe6c7945bd54 = L.circle(
+                [33.884313, -117.64275900000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1619.4134740701645, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_f426e1083e2b48b998eed2ed451cef17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ede5f761a3d40bb814842e0849ec391 = $(`<div id="html_2ede5f761a3d40bb814842e0849ec391" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/4/18/highway-fire/ - Year:2015 - Acres Burned:1049.0</div>`)[0];
+            popup_f426e1083e2b48b998eed2ed451cef17.setContent(html_2ede5f761a3d40bb814842e0849ec391);
+        
+
+        circle_d810ebc2da10468dbb1abe6c7945bd54.bindPopup(popup_f426e1083e2b48b998eed2ed451cef17)
+        ;
+
+        
+    
+    
+            var circle_fbd1b446d9bb40fba05d549efbd9e5cd = L.circle(
+                [39.5218, -121.3363],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1614.0012391568973, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_42a79deba0954493a6c514be37f5f165 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50863dcbcf414764aec7bc11d3ae6891 = $(`<div id="html_50863dcbcf414764aec7bc11d3ae6891" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/9/11/lumpkin-fire/ - Year:2015 - Acres Burned:1042.0</div>`)[0];
+            popup_42a79deba0954493a6c514be37f5f165.setContent(html_50863dcbcf414764aec7bc11d3ae6891);
+        
+
+        circle_fbd1b446d9bb40fba05d549efbd9e5cd.bindPopup(popup_42a79deba0954493a6c514be37f5f165)
+        ;
+
+        
+    
+    
+            var circle_dc277c46fca54fec86b9245412168001 = L.circle(
+                [37.165766999999995, -119.52394299999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1516.57508881031, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_30a26ffc260e4527a87944967c4545e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adc5557984384dad80327a607bf5590d = $(`<div id="html_adc5557984384dad80327a607bf5590d" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/18/corrine-fire/ - Year:2015 - Acres Burned:920.0</div>`)[0];
+            popup_30a26ffc260e4527a87944967c4545e2.setContent(html_adc5557984384dad80327a607bf5590d);
+        
+
+        circle_dc277c46fca54fec86b9245412168001.bindPopup(popup_30a26ffc260e4527a87944967c4545e2)
+        ;
+
+        
+    
+    
+            var circle_5ae3192b59774b6baccf0a0dfe861b00 = L.circle(
+                [36.70854, -121.32733999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1294.2179105544785, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_0af4789f038e464ea4841c5456202a16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74866c947cc34dfabe521b274aafb04a = $(`<div id="html_74866c947cc34dfabe521b274aafb04a" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/10/12/cienega-fire/ - Year:2015 - Acres Burned:670.0</div>`)[0];
+            popup_0af4789f038e464ea4841c5456202a16.setContent(html_74866c947cc34dfabe521b274aafb04a);
+        
+
+        circle_5ae3192b59774b6baccf0a0dfe861b00.bindPopup(popup_0af4789f038e464ea4841c5456202a16)
+        ;
+
+        
+    
+    
+            var circle_9ab896eb5b30473cbd368f1644e54269 = L.circle(
+                [33.5736, -116.5387],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1165.1180197731044, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_d0dadf6b604f476fa394355f50d20682 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44504b85296c4e5b88aa2a142e62a9a6 = $(`<div id="html_44504b85296c4e5b88aa2a142e62a9a6" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/10/anza-fire/ - Year:2015 - Acres Burned:543.0</div>`)[0];
+            popup_d0dadf6b604f476fa394355f50d20682.setContent(html_44504b85296c4e5b88aa2a142e62a9a6);
+        
+
+        circle_9ab896eb5b30473cbd368f1644e54269.bindPopup(popup_d0dadf6b604f476fa394355f50d20682)
+        ;
+
+        
+    
+    
+            var circle_c855868cedd243ba8bb77c210a3799ec = L.circle(
+                [36.085212, -118.82423500000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1036.822067666386, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_7abd824ab7ba40a98c202dc5fbd88231 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82f9e420fe0940f1a3eb2699968dbab7 = $(`<div id="html_82f9e420fe0940f1a3eb2699968dbab7" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/21/triple-fire/ - Year:2015 - Acres Burned:430.0</div>`)[0];
+            popup_7abd824ab7ba40a98c202dc5fbd88231.setContent(html_82f9e420fe0940f1a3eb2699968dbab7);
+        
+
+        circle_c855868cedd243ba8bb77c210a3799ec.bindPopup(popup_7abd824ab7ba40a98c202dc5fbd88231)
+        ;
+
+        
+    
+    
+            var circle_d0666c4fb9214e3c86324535aba42444 = L.circle(
+                [34.361007, -118.535793],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1018.5774393731681, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_e6fa1883d44449608645b93a19e2ab8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7c9c53f17bc4edfb61a33d00adc10a4 = $(`<div id="html_e7c9c53f17bc4edfb61a33d00adc10a4" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/24/calgrove-fire/ - Year:2015 - Acres Burned:415.0</div>`)[0];
+            popup_e6fa1883d44449608645b93a19e2ab8c.setContent(html_e7c9c53f17bc4edfb61a33d00adc10a4);
+        
+
+        circle_d0666c4fb9214e3c86324535aba42444.bindPopup(popup_e6fa1883d44449608645b93a19e2ab8c)
+        ;
+
+        
+    
+    
+            var circle_15dbe8a8ba0a4bbd99ee4f625ee351b1 = L.circle(
+                [39.43963, -121.38793999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1000.0, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_eabd662e1e7b4ed8bcdca99f68638259 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef490aab69c1455692da9d290c03599d = $(`<div id="html_ef490aab69c1455692da9d290c03599d" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/29/swedes-fire/ - Year:2015 - Acres Burned:400.0</div>`)[0];
+            popup_eabd662e1e7b4ed8bcdca99f68638259.setContent(html_ef490aab69c1455692da9d290c03599d);
+        
+
+        circle_15dbe8a8ba0a4bbd99ee4f625ee351b1.bindPopup(popup_eabd662e1e7b4ed8bcdca99f68638259)
+        ;
+
+        
+    
+    
+            var circle_ca2fb0e056cc498e9df5e7b30fd9d7f3 = L.circle(
+                [37.08312, -121.06963],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 829.1561975888501, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_3c009076ceee4b82a6aae2a3befc0a31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b552c981817c46b3bceca58f205a6d76 = $(`<div id="html_b552c981817c46b3bceca58f205a6d76" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/5/11/forebay-fire/ - Year:2015 - Acres Burned:275.0</div>`)[0];
+            popup_3c009076ceee4b82a6aae2a3befc0a31.setContent(html_b552c981817c46b3bceca58f205a6d76);
+        
+
+        circle_ca2fb0e056cc498e9df5e7b30fd9d7f3.bindPopup(popup_3c009076ceee4b82a6aae2a3befc0a31)
+        ;
+
+        
+    
+    
+            var circle_43d53f37c5114a879841fa333930102a = L.circle(
+                [38.925764, -122.879272],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 733.143914930759, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_9598f3e793a84aeda01464a8e66d22e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be7e6367093a4eb29a0951c57c620e46 = $(`<div id="html_be7e6367093a4eb29a0951c57c620e46" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/22/peterson-fire/ - Year:2015 - Acres Burned:215.0</div>`)[0];
+            popup_9598f3e793a84aeda01464a8e66d22e3.setContent(html_be7e6367093a4eb29a0951c57c620e46);
+        
+
+        circle_43d53f37c5114a879841fa333930102a.bindPopup(popup_9598f3e793a84aeda01464a8e66d22e3)
+        ;
+
+        
+    
+    
+            var circle_b0d3ee8e8d15445bbf50f064f2843e9b = L.circle(
+                [33.7626, -117.7274],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 731.4369419163896, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_1805874a34cc49488283bdfe1a821a6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8848f965a1f44ef08c9007aec2947c97 = $(`<div id="html_8848f965a1f44ef08c9007aec2947c97" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/13/241-fire/ - Year:2015 - Acres Burned:214.0</div>`)[0];
+            popup_1805874a34cc49488283bdfe1a821a6a.setContent(html_8848f965a1f44ef08c9007aec2947c97);
+        
+
+        circle_b0d3ee8e8d15445bbf50f064f2843e9b.bindPopup(popup_1805874a34cc49488283bdfe1a821a6a)
+        ;
+
+        
+    
+    
+            var circle_e285b77a5274470bb10380ba425dfa8a = L.circle(
+                [40.415108000000004, -122.439939],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 728.0109889280518, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_28a74a6966214ddbb1b863870683639d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d1aa7d8d35e4d53b90dd06776bf6424 = $(`<div id="html_0d1aa7d8d35e4d53b90dd06776bf6424" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/29/china-fire/ - Year:2015 - Acres Burned:212.0</div>`)[0];
+            popup_28a74a6966214ddbb1b863870683639d.setContent(html_0d1aa7d8d35e4d53b90dd06776bf6424);
+        
+
+        circle_e285b77a5274470bb10380ba425dfa8a.bindPopup(popup_28a74a6966214ddbb1b863870683639d)
+        ;
+
+        
+    
+    
+            var circle_e040ffbcf7a945c3bcd2d1874723a28d = L.circle(
+                [37.823, -120.15643999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 714.142842854285, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_35bf57187ca348a08cd48e77a1777e60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be0b3939ebeb45c49edb7c37301ee922 = $(`<div id="html_be0b3939ebeb45c49edb7c37301ee922" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/29/big-creek-fire/ - Year:2015 - Acres Burned:204.0</div>`)[0];
+            popup_35bf57187ca348a08cd48e77a1777e60.setContent(html_be0b3939ebeb45c49edb7c37301ee922);
+        
+
+        circle_e040ffbcf7a945c3bcd2d1874723a28d.bindPopup(popup_35bf57187ca348a08cd48e77a1777e60)
+        ;
+
+        
+    
+    
+            var circle_c896b63701b842bb96647b0a2a773587 = L.circle(
+                [34.367, -117.68299999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 707.1067811865476, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_50245ec9d1b34483920ba0fdc5e3b432 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2d4258ddc68484eb8353dea1522d4a7 = $(`<div id="html_a2d4258ddc68484eb8353dea1522d4a7" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/17/pines-fire/ - Year:2015 - Acres Burned:200.0</div>`)[0];
+            popup_50245ec9d1b34483920ba0fdc5e3b432.setContent(html_a2d4258ddc68484eb8353dea1522d4a7);
+        
+
+        circle_c896b63701b842bb96647b0a2a773587.bindPopup(popup_50245ec9d1b34483920ba0fdc5e3b432)
+        ;
+
+        
+    
+    
+            var circle_fb68b47a7e434ec8910b3a17739c4479 = L.circle(
+                [41.485, -121.851],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 707.1067811865476, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_f9098a9b987b4bd7919b16303cce70c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edc9a2b2d93d497aba5a65b2e45a26f6 = $(`<div id="html_edc9a2b2d93d497aba5a65b2e45a26f6" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/2/24/stephens-fire/ - Year:2015 - Acres Burned:200.0</div>`)[0];
+            popup_f9098a9b987b4bd7919b16303cce70c7.setContent(html_edc9a2b2d93d497aba5a65b2e45a26f6);
+        
+
+        circle_fb68b47a7e434ec8910b3a17739c4479.bindPopup(popup_f9098a9b987b4bd7919b16303cce70c7)
+        ;
+
+        
+    
+    
+            var circle_43371ee7767a42909931a384b41800e4 = L.circle(
+                [37.81629, -121.68113000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 698.2120021884471, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_d18de913b95347f5b1e9c0757e6381f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf68af46322840098ef7ae0f23f938a1 = $(`<div id="html_bf68af46322840098ef7ae0f23f938a1" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/30/vasco-fire/ - Year:2015 - Acres Burned:195.0</div>`)[0];
+            popup_d18de913b95347f5b1e9c0757e6381f8.setContent(html_bf68af46322840098ef7ae0f23f938a1);
+        
+
+        circle_43371ee7767a42909931a384b41800e4.bindPopup(popup_d18de913b95347f5b1e9c0757e6381f8)
+        ;
+
+        
+    
+    
+            var circle_e996dd861c1e43d6843e065eace26ea0 = L.circle(
+                [41.8048, -122.5029],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 672.6812023536855, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_143966f10c544f429a2652ff3f5be5c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77a8856f0ffa414380b44544cb77f5e6 = $(`<div id="html_77a8856f0ffa414380b44544cb77f5e6" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/13/cooley-fire/ - Year:2015 - Acres Burned:181.0</div>`)[0];
+            popup_143966f10c544f429a2652ff3f5be5c8.setContent(html_77a8856f0ffa414380b44544cb77f5e6);
+        
+
+        circle_e996dd861c1e43d6843e065eace26ea0.bindPopup(popup_143966f10c544f429a2652ff3f5be5c8)
+        ;
+
+        
+    
+    
+            var circle_91a226f2f22c43a68ee59c2e85f41847 = L.circle(
+                [32.9421, -116.8534],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 653.834841531101, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_ee4d0d02a6a64eee9f66ab97ffd161c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bb1ff661f0047d39921f8ca3ac5238a = $(`<div id="html_2bb1ff661f0047d39921f8ca3ac5238a" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/17/wildcat-fire/ - Year:2015 - Acres Burned:171.0</div>`)[0];
+            popup_ee4d0d02a6a64eee9f66ab97ffd161c2.setContent(html_2bb1ff661f0047d39921f8ca3ac5238a);
+        
+
+        circle_91a226f2f22c43a68ee59c2e85f41847.bindPopup(popup_ee4d0d02a6a64eee9f66ab97ffd161c2)
+        ;
+
+        
+    
+    
+            var circle_698d777ed7bf46a598e878f1f2e07718 = L.circle(
+                [40.400196, -120.553075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 651.9202405202649, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_b07818e985cc44009a023aa8788837fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_482de8fc89da40b5958573f3992d9336 = $(`<div id="html_482de8fc89da40b5958573f3992d9336" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/9/9/creek-fire/ - Year:2015 - Acres Burned:170.0</div>`)[0];
+            popup_b07818e985cc44009a023aa8788837fb.setContent(html_482de8fc89da40b5958573f3992d9336);
+        
+
+        circle_698d777ed7bf46a598e878f1f2e07718.bindPopup(popup_b07818e985cc44009a023aa8788837fb)
+        ;
+
+        
+    
+    
+            var circle_a8f42b1ffc4543928e9e3c3f55b7e1b5 = L.circle(
+                [39.8448, -122.3638],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 651.9202405202649, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_04e290c310ad47879463d54bc7f5fba6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_104c769d7d234978836aa450e03462a3 = $(`<div id="html_104c769d7d234978836aa450e03462a3" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/4/black-fire/ - Year:2015 - Acres Burned:170.0</div>`)[0];
+            popup_04e290c310ad47879463d54bc7f5fba6.setContent(html_104c769d7d234978836aa450e03462a3);
+        
+
+        circle_a8f42b1ffc4543928e9e3c3f55b7e1b5.bindPopup(popup_04e290c310ad47879463d54bc7f5fba6)
+        ;
+
+        
+    
+    
+            var circle_0fb35a0357134e6f88d7c9cd58c33bd5 = L.circle(
+                [33.383889, -116.86861100000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 646.1423991660043, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_bff462083e89445da96a7798ede99d9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_300864d61d184fd7a8cc4453869abd62 = $(`<div id="html_300864d61d184fd7a8cc4453869abd62" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/24/cutca-fire/ - Year:2015 - Acres Burned:167.0</div>`)[0];
+            popup_bff462083e89445da96a7798ede99d9e.setContent(html_300864d61d184fd7a8cc4453869abd62);
+        
+
+        circle_0fb35a0357134e6f88d7c9cd58c33bd5.bindPopup(popup_bff462083e89445da96a7798ede99d9e)
+        ;
+
+        
+    
+    
+            var circle_74ba7afb425b49b99f772f93dc3f2142 = L.circle(
+                [41.295667, -123.784067],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 628.4902544988267, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_06ebcbefa8da4d9a9b1f11b9be50c0fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e95c2c78bbba4665a277a6e37659d1fc = $(`<div id="html_e95c2c78bbba4665a277a6e37659d1fc" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/24/queen-fire/ - Year:2015 - Acres Burned:158.0</div>`)[0];
+            popup_06ebcbefa8da4d9a9b1f11b9be50c0fc.setContent(html_e95c2c78bbba4665a277a6e37659d1fc);
+        
+
+        circle_74ba7afb425b49b99f772f93dc3f2142.bindPopup(popup_06ebcbefa8da4d9a9b1f11b9be50c0fc)
+        ;
+
+        
+    
+    
+            var circle_ac32715eb2c44aa28d1efcaad1d31af9 = L.circle(
+                [39.2688, -121.26471000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 628.4902544988267, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_ed01374e422842ea84b871233480012b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81caba1f1cd041668f17a38a2e1da0d2 = $(`<div id="html_81caba1f1cd041668f17a38a2e1da0d2" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/18/cook-fire/ - Year:2015 - Acres Burned:158.0</div>`)[0];
+            popup_ed01374e422842ea84b871233480012b.setContent(html_81caba1f1cd041668f17a38a2e1da0d2);
+        
+
+        circle_ac32715eb2c44aa28d1efcaad1d31af9.bindPopup(popup_ed01374e422842ea84b871233480012b)
+        ;
+
+        
+    
+    
+            var circle_123a6986d88b44fd83c7b08c87b4d172 = L.circle(
+                [38.4113, -122.0789],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 612.3724356957945, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_3e379920f24c47bd919229d6a45127aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_643bb749315c4d47ba9250f60da2a179 = $(`<div id="html_643bb749315c4d47ba9250f60da2a179" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/6/sky-fire/ - Year:2015 - Acres Burned:150.0</div>`)[0];
+            popup_3e379920f24c47bd919229d6a45127aa.setContent(html_643bb749315c4d47ba9250f60da2a179);
+        
+
+        circle_123a6986d88b44fd83c7b08c87b4d172.bindPopup(popup_3e379920f24c47bd919229d6a45127aa)
+        ;
+
+        
+    
+    
+            var circle_265c9f43445643a8bcb66b3ec338b1f3 = L.circle(
+                [40.1058823, -124.0720419],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 604.1522986797286, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_b0876a6ce2364661a76e68ed6a7d0752 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac11320a9a2149dbb6f598cf441ecdc9 = $(`<div id="html_ac11320a9a2149dbb6f598cf441ecdc9" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/18/horse-fire/ - Year:2015 - Acres Burned:146.0</div>`)[0];
+            popup_b0876a6ce2364661a76e68ed6a7d0752.setContent(html_ac11320a9a2149dbb6f598cf441ecdc9);
+        
+
+        circle_265c9f43445643a8bcb66b3ec338b1f3.bindPopup(popup_b0876a6ce2364661a76e68ed6a7d0752)
+        ;
+
+        
+    
+    
+            var circle_f6a7dc703eb546beaf2e570dc1bb58ae = L.circle(
+                [40.050833333333, -120.70166666667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 585.2349955359813, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_2d536c4c766c4e10a81dcdee5c5a409f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26ed13e5f7194694860927997a3d9870 = $(`<div id="html_26ed13e5f7194694860927997a3d9870" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/4/13/ward-fire/ - Year:2015 - Acres Burned:137.0</div>`)[0];
+            popup_2d536c4c766c4e10a81dcdee5c5a409f.setContent(html_26ed13e5f7194694860927997a3d9870);
+        
+
+        circle_f6a7dc703eb546beaf2e570dc1bb58ae.bindPopup(popup_2d536c4c766c4e10a81dcdee5c5a409f)
+        ;
+
+        
+    
+    
+            var circle_9db2eb6b048c4b4dac731c81c1d85718 = L.circle(
+                [37.072561, -119.6958],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 580.9475019311125, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_65b855b621f74024a29b8e12a4acfd0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0070163f1d944262b1d64fd5916eadd6 = $(`<div id="html_0070163f1d944262b1d64fd5916eadd6" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/21/red-fire/ - Year:2015 - Acres Burned:135.0</div>`)[0];
+            popup_65b855b621f74024a29b8e12a4acfd0d.setContent(html_0070163f1d944262b1d64fd5916eadd6);
+        
+
+        circle_9db2eb6b048c4b4dac731c81c1d85718.bindPopup(popup_65b855b621f74024a29b8e12a4acfd0d)
+        ;
+
+        
+    
+    
+            var circle_6fb7b226de8f47a99c52f5551accf673 = L.circle(
+                [40.724897999999996, -122.96173999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 565.685424949238, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_d3a08a3828b1491faf775ceee866d1cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_892fcdff1cfd4230a8e7d804f91c65ec = $(`<div id="html_892fcdff1cfd4230a8e7d804f91c65ec" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/25/democrat-fire/ - Year:2015 - Acres Burned:128.0</div>`)[0];
+            popup_d3a08a3828b1491faf775ceee866d1cb.setContent(html_892fcdff1cfd4230a8e7d804f91c65ec);
+        
+
+        circle_6fb7b226de8f47a99c52f5551accf673.bindPopup(popup_d3a08a3828b1491faf775ceee866d1cb)
+        ;
+
+        
+    
+    
+            var circle_640bb7f3da154606bd88480653f2000e = L.circle(
+                [41.29226, -121.17211699999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 538.5164807134504, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_e6f78dd6a5814a258d62b4b0d6df417e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02ad00247e6642e393413dc89ef8428b = $(`<div id="html_02ad00247e6642e393413dc89ef8428b" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/23/3-11-fire/ - Year:2015 - Acres Burned:116.0</div>`)[0];
+            popup_e6f78dd6a5814a258d62b4b0d6df417e.setContent(html_02ad00247e6642e393413dc89ef8428b);
+        
+
+        circle_640bb7f3da154606bd88480653f2000e.bindPopup(popup_e6f78dd6a5814a258d62b4b0d6df417e)
+        ;
+
+        
+    
+    
+            var circle_21260a85b7d443bf9d0efb63dacf3f5d = L.circle(
+                [38.052, -120.5577],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 533.8539126015655, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_12a01a7377c04387b897d9107c81701f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c151a22c7ae840ceaa9df6edddbbe8f0 = $(`<div id="html_c151a22c7ae840ceaa9df6edddbbe8f0" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/13/mark-fire/ - Year:2015 - Acres Burned:114.0</div>`)[0];
+            popup_12a01a7377c04387b897d9107c81701f.setContent(html_c151a22c7ae840ceaa9df6edddbbe8f0);
+        
+
+        circle_21260a85b7d443bf9d0efb63dacf3f5d.bindPopup(popup_12a01a7377c04387b897d9107c81701f)
+        ;
+
+        
+    
+    
+            var circle_dd31b2bef4b64a15bf33634add9a7050 = L.circle(
+                [37.83618, -120.61691],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 529.1502622129182, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_bdf77ec4d2774ffcb3b7f7c78d239c19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41b833bb5a494accb1edde33a020a9ea = $(`<div id="html_41b833bb5a494accb1edde33a020a9ea" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/15/tulloch-fire/ - Year:2015 - Acres Burned:112.0</div>`)[0];
+            popup_bdf77ec4d2774ffcb3b7f7c78d239c19.setContent(html_41b833bb5a494accb1edde33a020a9ea);
+        
+
+        circle_dd31b2bef4b64a15bf33634add9a7050.bindPopup(popup_bdf77ec4d2774ffcb3b7f7c78d239c19)
+        ;
+
+        
+    
+    
+            var circle_5c0f1663d39d4a24b8579f3096f712f9 = L.circle(
+                [40.3506868, -121.77867990000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 524.4044240850758, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_81755901d1db4125b8d3d8e08c600d02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f861dad817b44a28af8d1ad80aef11b = $(`<div id="html_6f861dad817b44a28af8d1ad80aef11b" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/8/36-fire/ - Year:2015 - Acres Burned:110.0</div>`)[0];
+            popup_81755901d1db4125b8d3d8e08c600d02.setContent(html_6f861dad817b44a28af8d1ad80aef11b);
+        
+
+        circle_5c0f1663d39d4a24b8579f3096f712f9.bindPopup(popup_81755901d1db4125b8d3d8e08c600d02)
+        ;
+
+        
+    
+    
+            var circle_05edf7c26f3a48fdb56322d65ab65b0c = L.circle(
+                [40.475120000000004, -122.52541000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 522.0153254455275, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_27ebea914df34a358f518649b12219ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ebd087a035b41dab9cec7b9dbb67008 = $(`<div id="html_4ebd087a035b41dab9cec7b9dbb67008" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/9/11/walker-fire/ - Year:2015 - Acres Burned:109.0</div>`)[0];
+            popup_27ebea914df34a358f518649b12219ad.setContent(html_4ebd087a035b41dab9cec7b9dbb67008);
+        
+
+        circle_05edf7c26f3a48fdb56322d65ab65b0c.bindPopup(popup_27ebea914df34a358f518649b12219ad)
+        ;
+
+        
+    
+    
+            var circle_8a95cf500f8f4787951077a3d7395228 = L.circle(
+                [38.04684, -120.30188000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 519.6152422706632, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_6ad7215bec584989af6522e4abc639a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8a45c9cd3db4defbd59a7504792a251 = $(`<div id="html_a8a45c9cd3db4defbd59a7504792a251" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/9/8/oak-fire/ - Year:2015 - Acres Burned:108.0</div>`)[0];
+            popup_6ad7215bec584989af6522e4abc639a2.setContent(html_a8a45c9cd3db4defbd59a7504792a251);
+        
+
+        circle_8a95cf500f8f4787951077a3d7395228.bindPopup(popup_6ad7215bec584989af6522e4abc639a2)
+        ;
+
+        
+    
+    
+            var circle_e754493baad34e448f60f568951436e2 = L.circle(
+                [39.8707, -121.8938],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 509.9019513592784, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_81d4ac07cd6841b08168b76f983a6acf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d241094100434f26a3e714292f920035 = $(`<div id="html_d241094100434f26a3e714292f920035" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/10/2/munjar-fire/ - Year:2015 - Acres Burned:104.0</div>`)[0];
+            popup_81d4ac07cd6841b08168b76f983a6acf.setContent(html_d241094100434f26a3e714292f920035);
+        
+
+        circle_e754493baad34e448f60f568951436e2.bindPopup(popup_81d4ac07cd6841b08168b76f983a6acf)
+        ;
+
+        
+    
+    
+            var circle_d439216c7a4048daa8fee1a1d6111fc1 = L.circle(
+                [34.165974, -117.24387800000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500.0, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_4df37b43f75d429481a7161a0879066b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0dbe8a71a373424ca3954320c34ff87f = $(`<div id="html_0dbe8a71a373424ca3954320c34ff87f" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/25/sterling-fire/ - Year:2015 - Acres Burned:100.0</div>`)[0];
+            popup_4df37b43f75d429481a7161a0879066b.setContent(html_0dbe8a71a373424ca3954320c34ff87f);
+        
+
+        circle_d439216c7a4048daa8fee1a1d6111fc1.bindPopup(popup_4df37b43f75d429481a7161a0879066b)
+        ;
+
+        
+    
+    
+            var circle_54c4c8600443438085a1945b2b5a88f3 = L.circle(
+                [36.5696373, -121.75560290000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 487.3397172404482, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_321e31f63e7448078b1ab973102d4bf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc62c1ecc10e447fa575cc7da09459a7 = $(`<div id="html_bc62c1ecc10e447fa575cc7da09459a7" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/9/19/laureles-fire/ - Year:2015 - Acres Burned:95.0</div>`)[0];
+            popup_321e31f63e7448078b1ab973102d4bf0.setContent(html_bc62c1ecc10e447fa575cc7da09459a7);
+        
+
+        circle_54c4c8600443438085a1945b2b5a88f3.bindPopup(popup_321e31f63e7448078b1ab973102d4bf0)
+        ;
+
+        
+    
+    
+            var circle_63e3bbd616654a4daac67960e7ced812 = L.circle(
+                [35.7183, -121.0157],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 487.3397172404482, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_cb1fdb8af1284437bfefe07a9d5fa8e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0086471f4b57453aab985f0e799930fb = $(`<div id="html_0086471f4b57453aab985f0e799930fb" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/10/deer-fire/ - Year:2015 - Acres Burned:95.0</div>`)[0];
+            popup_cb1fdb8af1284437bfefe07a9d5fa8e1.setContent(html_0086471f4b57453aab985f0e799930fb);
+        
+
+        circle_63e3bbd616654a4daac67960e7ced812.bindPopup(popup_cb1fdb8af1284437bfefe07a9d5fa8e1)
+        ;
+
+        
+    
+    
+            var circle_b1216c729f214f7084adf81efd86ba81 = L.circle(
+                [40.49865, -122.20109],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 474.3416490252569, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_0c525f09f2e84ac0a27d5078b9c3fb4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fa1b94273c44334ba1feac35be1a631 = $(`<div id="html_8fa1b94273c44334ba1feac35be1a631" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/30/sprig-fire/ - Year:2015 - Acres Burned:90.0</div>`)[0];
+            popup_0c525f09f2e84ac0a27d5078b9c3fb4e.setContent(html_8fa1b94273c44334ba1feac35be1a631);
+        
+
+        circle_b1216c729f214f7084adf81efd86ba81.bindPopup(popup_0c525f09f2e84ac0a27d5078b9c3fb4e)
+        ;
+
+        
+    
+    
+            var circle_94cb705ac85a41d0b9eae8236924e109 = L.circle(
+                [36.49845, -118.9009],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 463.6809247747852, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_d6bd9de9464d407888efac236df11b65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d9f904105e04d6ea3943bdd72ed9528 = $(`<div id="html_9d9f904105e04d6ea3943bdd72ed9528" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/30/advance-fire/ - Year:2015 - Acres Burned:86.0</div>`)[0];
+            popup_d6bd9de9464d407888efac236df11b65.setContent(html_9d9f904105e04d6ea3943bdd72ed9528);
+        
+
+        circle_94cb705ac85a41d0b9eae8236924e109.bindPopup(popup_d6bd9de9464d407888efac236df11b65)
+        ;
+
+        
+    
+    
+            var circle_6ff1ea01e1bb40fe82057a89de2397ab = L.circle(
+                [32.6449163, -116.94543870000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 447.21359549995793, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_d345f48a694740a68aa13cb27a30b430 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_001c71c8c9b4479dac8080cc93a35f14 = $(`<div id="html_001c71c8c9b4479dac8080cc93a35f14" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/26/otay-fire/ - Year:2015 - Acres Burned:80.0</div>`)[0];
+            popup_d345f48a694740a68aa13cb27a30b430.setContent(html_001c71c8c9b4479dac8080cc93a35f14);
+        
+
+        circle_6ff1ea01e1bb40fe82057a89de2397ab.bindPopup(popup_d345f48a694740a68aa13cb27a30b430)
+        ;
+
+        
+    
+    
+            var circle_c8fa5dc5fa6042d3821e8fb8e4db5863 = L.circle(
+                [40.856421999999995, -121.101623],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 438.74821936960615, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_1986f0191ad14dedb60edeeead179a93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75dc2f7c5f79413db813569a53adc275 = $(`<div id="html_75dc2f7c5f79413db813569a53adc275" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/23/3-12-fire/ - Year:2015 - Acres Burned:77.0</div>`)[0];
+            popup_1986f0191ad14dedb60edeeead179a93.setContent(html_75dc2f7c5f79413db813569a53adc275);
+        
+
+        circle_c8fa5dc5fa6042d3821e8fb8e4db5863.bindPopup(popup_1986f0191ad14dedb60edeeead179a93)
+        ;
+
+        
+    
+    
+            var circle_6d25ffa76ee84dbb92c8014e5afa3d2f = L.circle(
+                [40.67868, -121.93243999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 433.01270189221935, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_aa01da3042964f3c9638d88747025e05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_724b0722005d446bb730ad74644a4a5e = $(`<div id="html_724b0722005d446bb730ad74644a4a5e" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/2/fern-fire/ - Year:2015 - Acres Burned:75.0</div>`)[0];
+            popup_aa01da3042964f3c9638d88747025e05.setContent(html_724b0722005d446bb730ad74644a4a5e);
+        
+
+        circle_6d25ffa76ee84dbb92c8014e5afa3d2f.bindPopup(popup_aa01da3042964f3c9638d88747025e05)
+        ;
+
+        
+    
+    
+            var circle_4782119834fe40a78fd142c161f1189b = L.circle(
+                [40.509552, -122.19922700000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 433.01270189221935, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_bd2b952aee024ab992136e567b06cdca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6eec4b9cee2c4b119b53376e4e8d647c = $(`<div id="html_6eec4b9cee2c4b119b53376e4e8d647c" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/29/mallard-fire/ - Year:2015 - Acres Burned:75.0</div>`)[0];
+            popup_bd2b952aee024ab992136e567b06cdca.setContent(html_6eec4b9cee2c4b119b53376e4e8d647c);
+        
+
+        circle_4782119834fe40a78fd142c161f1189b.bindPopup(popup_bd2b952aee024ab992136e567b06cdca)
+        ;
+
+        
+    
+    
+            var circle_cbfdd6eb77894e9481fc02fbcc771efe = L.circle(
+                [38.775999999999996, -120.404],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 433.01270189221935, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_7c916b1a88b84ff39331a758f5b777a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1690d7adec2d4c9898d976fb7830018d = $(`<div id="html_1690d7adec2d4c9898d976fb7830018d" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/23/kyburz-fire/ - Year:2015 - Acres Burned:75.0</div>`)[0];
+            popup_7c916b1a88b84ff39331a758f5b777a1.setContent(html_1690d7adec2d4c9898d976fb7830018d);
+        
+
+        circle_cbfdd6eb77894e9481fc02fbcc771efe.bindPopup(popup_7c916b1a88b84ff39331a758f5b777a1)
+        ;
+
+        
+    
+    
+            var circle_0c99b72cd2be497d880cbed427dd392e = L.circle(
+                [35.77937, -120.19481999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 409.2676385936225, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_660ee4965f7f4396b28b6edea081c4d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b4457745e174911a6dd4da2d1004785 = $(`<div id="html_4b4457745e174911a6dd4da2d1004785" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/15/pass-fire/ - Year:2015 - Acres Burned:67.0</div>`)[0];
+            popup_660ee4965f7f4396b28b6edea081c4d6.setContent(html_4b4457745e174911a6dd4da2d1004785);
+        
+
+        circle_0c99b72cd2be497d880cbed427dd392e.bindPopup(popup_660ee4965f7f4396b28b6edea081c4d6)
+        ;
+
+        
+    
+    
+            var circle_b47e2d511dc743cf8c78d9df1f4494b5 = L.circle(
+                [40.875667, -121.033667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 387.2983346207417, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_cc4fcff2f3814bf6966ad7521abff5da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57c0169df6624d57acc03261573ab64c = $(`<div id="html_57c0169df6624d57acc03261573ab64c" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/19/dixie-fire/ - Year:2015 - Acres Burned:60.0</div>`)[0];
+            popup_cc4fcff2f3814bf6966ad7521abff5da.setContent(html_57c0169df6624d57acc03261573ab64c);
+        
+
+        circle_b47e2d511dc743cf8c78d9df1f4494b5.bindPopup(popup_cc4fcff2f3814bf6966ad7521abff5da)
+        ;
+
+        
+    
+    
+            var circle_abad4bbbb660453a8e0a25e0c74ba3aa = L.circle(
+                [38.260777000000004, -121.135426],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 387.2983346207417, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_978a556edf484070bd8f32a65962edd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4d25d220b444210904e71f458821b0a = $(`<div id="html_a4d25d220b444210904e71f458821b0a" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/16/north-fire/ - Year:2015 - Acres Burned:60.0</div>`)[0];
+            popup_978a556edf484070bd8f32a65962edd9.setContent(html_a4d25d220b444210904e71f458821b0a);
+        
+
+        circle_abad4bbbb660453a8e0a25e0c74ba3aa.bindPopup(popup_978a556edf484070bd8f32a65962edd9)
+        ;
+
+        
+    
+    
+            var circle_23004b8f46634c4492b69fb5dbc9e569 = L.circle(
+                [40.3929, -122.40546],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 384.0572873934304, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_079daa99a92d4ad9bc4bdae641135764 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a302ac93e3d14c8ebb1d72f4c178599f = $(`<div id="html_a302ac93e3d14c8ebb1d72f4c178599f" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/3/point-fire/ - Year:2015 - Acres Burned:59.0</div>`)[0];
+            popup_079daa99a92d4ad9bc4bdae641135764.setContent(html_a302ac93e3d14c8ebb1d72f4c178599f);
+        
+
+        circle_23004b8f46634c4492b69fb5dbc9e569.bindPopup(popup_079daa99a92d4ad9bc4bdae641135764)
+        ;
+
+        
+    
+    
+            var circle_8ea90faaba2f4b1685250795d9330dd5 = L.circle(
+                [34.23, -116.883],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 370.80992435478316, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_f687eb1e559f4fe9a743e0086685f45c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41f704cceeed47539f6f067828acfc8a = $(`<div id="html_41f704cceeed47539f6f067828acfc8a" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/23/summit-fire/ - Year:2015 - Acres Burned:55.0</div>`)[0];
+            popup_f687eb1e559f4fe9a743e0086685f45c.setContent(html_41f704cceeed47539f6f067828acfc8a);
+        
+
+        circle_8ea90faaba2f4b1685250795d9330dd5.bindPopup(popup_f687eb1e559f4fe9a743e0086685f45c)
+        ;
+
+        
+    
+    
+            var circle_1e9c7a408bdd4f93805de297438dd443 = L.circle(
+                [33.4115972, -117.2886249],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 370.80992435478316, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_de0cadc16a2c44b3b933af0f03d4092d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_798c3eae0cf046b6b72457d5535725b2 = $(`<div id="html_798c3eae0cf046b6b72457d5535725b2" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/9/de-luz-fire/ - Year:2015 - Acres Burned:55.0</div>`)[0];
+            popup_de0cadc16a2c44b3b933af0f03d4092d.setContent(html_798c3eae0cf046b6b72457d5535725b2);
+        
+
+        circle_1e9c7a408bdd4f93805de297438dd443.bindPopup(popup_de0cadc16a2c44b3b933af0f03d4092d)
+        ;
+
+        
+    
+    
+            var circle_ed21ec21c76446509a8bd3bb75e71f7c = L.circle(
+                [40.0133, -122.552],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 370.80992435478316, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_1b82cb286b954c2a8a32f5f8ebc5ef7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecc67aaad1674b55b9d2db8c178e7148 = $(`<div id="html_ecc67aaad1674b55b9d2db8c178e7148" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/17/fork-fire/ - Year:2015 - Acres Burned:55.0</div>`)[0];
+            popup_1b82cb286b954c2a8a32f5f8ebc5ef7c.setContent(html_ecc67aaad1674b55b9d2db8c178e7148);
+        
+
+        circle_ed21ec21c76446509a8bd3bb75e71f7c.bindPopup(popup_1b82cb286b954c2a8a32f5f8ebc5ef7c)
+        ;
+
+        
+    
+    
+            var circle_f8fcd2fc24a148c0807af13d8d8b6f02 = L.circle(
+                [34.0783472, -117.04878629999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 367.42346141747674, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_ed0f66486ce94534aac94252bc354a7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3ebbff118914ce3a3e375772b30f3a5 = $(`<div id="html_f3ebbff118914ce3a3e375772b30f3a5" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/12/mill-2-fire/ - Year:2015 - Acres Burned:54.0</div>`)[0];
+            popup_ed0f66486ce94534aac94252bc354a7e.setContent(html_f3ebbff118914ce3a3e375772b30f3a5);
+        
+
+        circle_f8fcd2fc24a148c0807af13d8d8b6f02.bindPopup(popup_ed0f66486ce94534aac94252bc354a7e)
+        ;
+
+        
+    
+    
+            var circle_ca5e79c5cf76442cbfbef4318257b9f7 = L.circle(
+                [34.9522, -120.2903],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 360.5551275463989, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_3f6d984a5cd044c0981aa442dfc7f931 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_137590f741ae4801b12fb2bd29af69dd = $(`<div id="html_137590f741ae4801b12fb2bd29af69dd" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/1/white-fire/ - Year:2015 - Acres Burned:52.0</div>`)[0];
+            popup_3f6d984a5cd044c0981aa442dfc7f931.setContent(html_137590f741ae4801b12fb2bd29af69dd);
+        
+
+        circle_ca5e79c5cf76442cbfbef4318257b9f7.bindPopup(popup_3f6d984a5cd044c0981aa442dfc7f931)
+        ;
+
+        
+    
+    
+            var circle_97a4625edfaa4fd9907c336bf57f9672 = L.circle(
+                [34.15, -118.87944399999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 353.5533905932738, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_5eec21f8a5214730b1d1c632b8aa2dfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d5bc7e8f17643a9b4f43148593fd9c5 = $(`<div id="html_1d5bc7e8f17643a9b4f43148593fd9c5" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/11/7/potrero-fire/ - Year:2015 - Acres Burned:50.0</div>`)[0];
+            popup_5eec21f8a5214730b1d1c632b8aa2dfe.setContent(html_1d5bc7e8f17643a9b4f43148593fd9c5);
+        
+
+        circle_97a4625edfaa4fd9907c336bf57f9672.bindPopup(popup_5eec21f8a5214730b1d1c632b8aa2dfe)
+        ;
+
+        
+    
+    
+            var circle_e1df6300a45d406da2720fb1923703dc = L.circle(
+                [39.433009999999996, -123.36316000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 353.5533905932738, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_453c114da7c740de943787724fc2efd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abf198137cd64ad895976ddd9e65591a = $(`<div id="html_abf198137cd64ad895976ddd9e65591a" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/30/mendocino-lightning-fires/ - Year:2015 - Acres Burned:50.0</div>`)[0];
+            popup_453c114da7c740de943787724fc2efd5.setContent(html_abf198137cd64ad895976ddd9e65591a);
+        
+
+        circle_e1df6300a45d406da2720fb1923703dc.bindPopup(popup_453c114da7c740de943787724fc2efd5)
+        ;
+
+        
+    
+    
+            var circle_44c8c7c89c8e45f8b38ad98d2ce33034 = L.circle(
+                [40.400196, -120.553075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 316.22776601683796, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_4d1510fb25f14077a5823d2e92838997 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f68b2bedb3b4d9bb74dcbd96356f0e6 = $(`<div id="html_6f68b2bedb3b4d9bb74dcbd96356f0e6" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/9/9/center-fire/ - Year:2015 - Acres Burned:40.0</div>`)[0];
+            popup_4d1510fb25f14077a5823d2e92838997.setContent(html_6f68b2bedb3b4d9bb74dcbd96356f0e6);
+        
+
+        circle_44c8c7c89c8e45f8b38ad98d2ce33034.bindPopup(popup_4d1510fb25f14077a5823d2e92838997)
+        ;
+
+        
+    
+    
+            var circle_38ea1af18a234a59a02de1e78141c2b1 = L.circle(
+                [37.24523, -121.20324],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 316.22776601683796, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_0b95ba6cdcef47cbbc2026eb6d8e7a4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efebd3b5078842e2875f46fae513dd6d = $(`<div id="html_efebd3b5078842e2875f46fae513dd6d" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/28/sullivan-fire/ - Year:2015 - Acres Burned:40.0</div>`)[0];
+            popup_0b95ba6cdcef47cbbc2026eb6d8e7a4d.setContent(html_efebd3b5078842e2875f46fae513dd6d);
+        
+
+        circle_38ea1af18a234a59a02de1e78141c2b1.bindPopup(popup_0b95ba6cdcef47cbbc2026eb6d8e7a4d)
+        ;
+
+        
+    
+    
+            var circle_f750751af0d04a68a36e2c6556ac3d0e = L.circle(
+                [38.1029, -122.1578],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 316.22776601683796, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_2543c676cdbf45689b70148cae9c34ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c79ec57710e546b2929db14e4ff378f2 = $(`<div id="html_c79ec57710e546b2929db14e4ff378f2" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/10/ascot-fire/ - Year:2015 - Acres Burned:40.0</div>`)[0];
+            popup_2543c676cdbf45689b70148cae9c34ee.setContent(html_c79ec57710e546b2929db14e4ff378f2);
+        
+
+        circle_f750751af0d04a68a36e2c6556ac3d0e.bindPopup(popup_2543c676cdbf45689b70148cae9c34ee)
+        ;
+
+        
+    
+    
+            var circle_cff22c4080944afb92b4f7516620365b = L.circle(
+                [38.5287, -122.3415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 308.2207001484488, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_b72d4e731b734e15ad970f1e4a802dc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88fcc7ffef2e4f66bc57952a7800be60 = $(`<div id="html_88fcc7ffef2e4f66bc57952a7800be60" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/16/chiles-fire/ - Year:2015 - Acres Burned:38.0</div>`)[0];
+            popup_b72d4e731b734e15ad970f1e4a802dc0.setContent(html_88fcc7ffef2e4f66bc57952a7800be60);
+        
+
+        circle_cff22c4080944afb92b4f7516620365b.bindPopup(popup_b72d4e731b734e15ad970f1e4a802dc0)
+        ;
+
+        
+    
+    
+            var circle_be261ef6192245f498b6aeabedaad248 = L.circle(
+                [39.7806004, -123.24821399999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 295.8039891549808, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_f07f1c8c09a741818fda750b9e202383 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3daf1db0073d4acdac61514651b67521 = $(`<div id="html_3daf1db0073d4acdac61514651b67521" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/28/covelo-fire/ - Year:2015 - Acres Burned:35.0</div>`)[0];
+            popup_f07f1c8c09a741818fda750b9e202383.setContent(html_3daf1db0073d4acdac61514651b67521);
+        
+
+        circle_be261ef6192245f498b6aeabedaad248.bindPopup(popup_f07f1c8c09a741818fda750b9e202383)
+        ;
+
+        
+    
+    
+            var circle_c27f3babd8ca4f9bb1df58f24fe465f9 = L.circle(
+                [39.080999999999996, -121.194],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 273.8612787525831, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_72412185008a4749addf092dd289769e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62a98610a6a64523b2b49fa2a7a0d051 = $(`<div id="html_62a98610a6a64523b2b49fa2a7a0d051" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/9/22/mccourtney-fire/ - Year:2015 - Acres Burned:30.0</div>`)[0];
+            popup_72412185008a4749addf092dd289769e.setContent(html_62a98610a6a64523b2b49fa2a7a0d051);
+        
+
+        circle_c27f3babd8ca4f9bb1df58f24fe465f9.bindPopup(popup_72412185008a4749addf092dd289769e)
+        ;
+
+        
+    
+    
+            var circle_67bba56a356946f0be53e4fa4c042bf1 = L.circle(
+                [41.12362, -121.19425600000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 273.8612787525831, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_c94db0feb9604464b44818b1bc1d1031 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6def7664091348cab0b88c69d022f61e = $(`<div id="html_6def7664091348cab0b88c69d022f61e" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/29/kramer-fire/ - Year:2015 - Acres Burned:30.0</div>`)[0];
+            popup_c94db0feb9604464b44818b1bc1d1031.setContent(html_6def7664091348cab0b88c69d022f61e);
+        
+
+        circle_67bba56a356946f0be53e4fa4c042bf1.bindPopup(popup_c94db0feb9604464b44818b1bc1d1031)
+        ;
+
+        
+    
+    
+            var circle_bffc0e0d0ab1487f96c0f3804e0e8fa5 = L.circle(
+                [39.33303, -121.18735],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 273.8612787525831, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_9e9bdc31d9f84d879631299025a5e614 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba47bb8984314538af0bc58a10a96c17 = $(`<div id="html_ba47bb8984314538af0bc58a10a96c17" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/3/francis-fire/ - Year:2015 - Acres Burned:30.0</div>`)[0];
+            popup_9e9bdc31d9f84d879631299025a5e614.setContent(html_ba47bb8984314538af0bc58a10a96c17);
+        
+
+        circle_bffc0e0d0ab1487f96c0f3804e0e8fa5.bindPopup(popup_9e9bdc31d9f84d879631299025a5e614)
+        ;
+
+        
+    
+    
+            var circle_989654c33f5d425abcbf1c4e73f3ac11 = L.circle(
+                [38.9361, -121.1548],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 254.9509756796392, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_2c55c0e853f940f7929fb1a9f32d19ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab5eb541be3c4972b59b6e045454b6e3 = $(`<div id="html_ab5eb541be3c4972b59b6e045454b6e3" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/22/baxter-fire/ - Year:2015 - Acres Burned:26.0</div>`)[0];
+            popup_2c55c0e853f940f7929fb1a9f32d19ed.setContent(html_ab5eb541be3c4972b59b6e045454b6e3);
+        
+
+        circle_989654c33f5d425abcbf1c4e73f3ac11.bindPopup(popup_2c55c0e853f940f7929fb1a9f32d19ed)
+        ;
+
+        
+    
+    
+            var circle_bcf8dbba420548739f0445da2d832feb = L.circle(
+                [32.682547, -116.51683999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 250.0, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_1795643e3d084083a6826ab7601874af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afafc6ab92524a71981296dd19caed3c = $(`<div id="html_afafc6ab92524a71981296dd19caed3c" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/24/park-fire/ - Year:2015 - Acres Burned:25.0</div>`)[0];
+            popup_1795643e3d084083a6826ab7601874af.setContent(html_afafc6ab92524a71981296dd19caed3c);
+        
+
+        circle_bcf8dbba420548739f0445da2d832feb.bindPopup(popup_1795643e3d084083a6826ab7601874af)
+        ;
+
+        
+    
+    
+            var circle_0529e8f309b74978983421448029d8be = L.circle(
+                [36.8727, -121.5681],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 250.0, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_7e3430aece644bdebbe50b163591f6eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_305a8f47e6b9438aa7662b77f19b6b84 = $(`<div id="html_305a8f47e6b9438aa7662b77f19b6b84" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/20/betabel-fire/ - Year:2015 - Acres Burned:25.0</div>`)[0];
+            popup_7e3430aece644bdebbe50b163591f6eb.setContent(html_305a8f47e6b9438aa7662b77f19b6b84);
+        
+
+        circle_0529e8f309b74978983421448029d8be.bindPopup(popup_7e3430aece644bdebbe50b163591f6eb)
+        ;
+
+        
+    
+    
+            var circle_a0d5cbe6df584c35b37ac88dff9f70d3 = L.circle(
+                [33.21407, -116.73472],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 250.0, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_f20deb74c9f546c1b56b0ab03310995a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd17717e9ac44bafa16c38dca362a4c8 = $(`<div id="html_cd17717e9ac44bafa16c38dca362a4c8" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/16/lake-fire/ - Year:2015 - Acres Burned:25.0</div>`)[0];
+            popup_f20deb74c9f546c1b56b0ab03310995a.setContent(html_cd17717e9ac44bafa16c38dca362a4c8);
+        
+
+        circle_a0d5cbe6df584c35b37ac88dff9f70d3.bindPopup(popup_f20deb74c9f546c1b56b0ab03310995a)
+        ;
+
+        
+    
+    
+            var circle_9d6a218b0589457480070165ff4cbb91 = L.circle(
+                [41.999340999999994, -121.891226],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 244.9489742783178, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_7ee26ec1fbbf4c619de5cfc7de148e6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fd2089d93214999a8fa5a6fe254a463 = $(`<div id="html_5fd2089d93214999a8fa5a6fe254a463" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/21/dorris-fire/ - Year:2015 - Acres Burned:24.0</div>`)[0];
+            popup_7ee26ec1fbbf4c619de5cfc7de148e6c.setContent(html_5fd2089d93214999a8fa5a6fe254a463);
+        
+
+        circle_9d6a218b0589457480070165ff4cbb91.bindPopup(popup_7ee26ec1fbbf4c619de5cfc7de148e6c)
+        ;
+
+        
+    
+    
+            var circle_c19fa35181e047dfba1963830ab35b26 = L.circle(
+                [39.0263, -123.303],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 239.79157616563595, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_e1961949147b47299d5f097cb1b8cb2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e6ab131f1be440bb8c96149a0da7b73 = $(`<div id="html_2e6ab131f1be440bb8c96149a0da7b73" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/4/soda-fire/ - Year:2015 - Acres Burned:23.0</div>`)[0];
+            popup_e1961949147b47299d5f097cb1b8cb2f.setContent(html_2e6ab131f1be440bb8c96149a0da7b73);
+        
+
+        circle_c19fa35181e047dfba1963830ab35b26.bindPopup(popup_e1961949147b47299d5f097cb1b8cb2f)
+        ;
+
+        
+    
+    
+            var circle_5cb39274737f47ec9bc06874647fcfb5 = L.circle(
+                [38.831478000000004, -122.53428000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 234.5207879911715, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_c8eb2c1094154ac69e5d2ca1939fd173 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69cfb14be9544928a2a9610de892c0eb = $(`<div id="html_69cfb14be9544928a2a9610de892c0eb" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/8/24/grade-fire/ - Year:2015 - Acres Burned:22.0</div>`)[0];
+            popup_c8eb2c1094154ac69e5d2ca1939fd173.setContent(html_69cfb14be9544928a2a9610de892c0eb);
+        
+
+        circle_5cb39274737f47ec9bc06874647fcfb5.bindPopup(popup_c8eb2c1094154ac69e5d2ca1939fd173)
+        ;
+
+        
+    
+    
+            var circle_9e858decefcc4151ba7cd0b24f009753 = L.circle(
+                [34.4828, -119.63216000000001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 229.128784747792, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_b75baec04eda41eeb4699c0eb41059aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b65349e6dfba422f87444a1589cee423 = $(`<div id="html_b65349e6dfba422f87444a1589cee423" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/10/29/gibraltar-fire/ - Year:2015 - Acres Burned:21.0</div>`)[0];
+            popup_b75baec04eda41eeb4699c0eb41059aa.setContent(html_b65349e6dfba422f87444a1589cee423);
+        
+
+        circle_9e858decefcc4151ba7cd0b24f009753.bindPopup(popup_b75baec04eda41eeb4699c0eb41059aa)
+        ;
+
+        
+    
+    
+            var circle_cb5764dbf9c34c5ba817e5b477f68427 = L.circle(
+                [33.986204, -117.43942],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 229.128784747792, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_b9a04bf2804e44189f325fcbf90ebb84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_957d0fd523b54d2b9fba88b7bfa8e345 = $(`<div id="html_957d0fd523b54d2b9fba88b7bfa8e345" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/12/spider-fire/ - Year:2015 - Acres Burned:21.0</div>`)[0];
+            popup_b9a04bf2804e44189f325fcbf90ebb84.setContent(html_957d0fd523b54d2b9fba88b7bfa8e345);
+        
+
+        circle_cb5764dbf9c34c5ba817e5b477f68427.bindPopup(popup_b9a04bf2804e44189f325fcbf90ebb84)
+        ;
+
+        
+    
+    
+            var circle_12164d29b1ed4287abe52b8f9d846b3f = L.circle(
+                [41.1513, -123.8292],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 223.60679774997897, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_387ac9c3981947b78cf89ef75652e14d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee71b24b25424126b1b63e7003b0aeaa = $(`<div id="html_ee71b24b25424126b1b63e7003b0aeaa" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/10/bald-fire/ - Year:2015 - Acres Burned:20.0</div>`)[0];
+            popup_387ac9c3981947b78cf89ef75652e14d.setContent(html_ee71b24b25424126b1b63e7003b0aeaa);
+        
+
+        circle_12164d29b1ed4287abe52b8f9d846b3f.bindPopup(popup_387ac9c3981947b78cf89ef75652e14d)
+        ;
+
+        
+    
+    
+            var circle_c58141977882490da52c04ae0ef636a8 = L.circle(
+                [38.519132, -122.181878],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 217.9449471770337, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_6ff07adfb63849b898e448e9588d38db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_206e99b6d6454af2a9387200b0307071 = $(`<div id="html_206e99b6d6454af2a9387200b0307071" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/27/pleasure-fire/ - Year:2015 - Acres Burned:19.0</div>`)[0];
+            popup_6ff07adfb63849b898e448e9588d38db.setContent(html_206e99b6d6454af2a9387200b0307071);
+        
+
+        circle_c58141977882490da52c04ae0ef636a8.bindPopup(popup_6ff07adfb63849b898e448e9588d38db)
+        ;
+
+        
+    
+    
+            var circle_c3c24a152efb4d1a96e81743e4b41dab = L.circle(
+                [40.5953, -122.4397],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 212.13203435596424, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_ddebe42537e741ebaa21899f07ab4a15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb45a9f9303341ada2cc1fa206b6229a = $(`<div id="html_eb45a9f9303341ada2cc1fa206b6229a" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/7/keswick-fire/ - Year:2015 - Acres Burned:18.0</div>`)[0];
+            popup_ddebe42537e741ebaa21899f07ab4a15.setContent(html_eb45a9f9303341ada2cc1fa206b6229a);
+        
+
+        circle_c3c24a152efb4d1a96e81743e4b41dab.bindPopup(popup_ddebe42537e741ebaa21899f07ab4a15)
+        ;
+
+        
+    
+    
+            var circle_bea7ffad5cb64f0f8c20da30700fe43e = L.circle(
+                [40.1093, -123.774],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 200.0, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_ffe082ace3494ca0b03c843299cd1d46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e9e047e1e654f9986845614ed061c9b = $(`<div id="html_1e9e047e1e654f9986845614ed061c9b" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/7/28/buck-fire/ - Year:2015 - Acres Burned:16.0</div>`)[0];
+            popup_ffe082ace3494ca0b03c843299cd1d46.setContent(html_1e9e047e1e654f9986845614ed061c9b);
+        
+
+        circle_bea7ffad5cb64f0f8c20da30700fe43e.bindPopup(popup_ffe082ace3494ca0b03c843299cd1d46)
+        ;
+
+        
+    
+    
+            var circle_7c5210f0aeda4756bbd4cf3317406cfb = L.circle(
+                [38.598056, -119.751944],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c287872502164f1395e165a3034f6df0);
+        
+    
+        var popup_bffd65fb01194c409a68ce717e09c0a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1dacf42d5b064781bb80e5902abe2cd0 = $(`<div id="html_1dacf42d5b064781bb80e5902abe2cd0" style="width: 100.0%; height: 100.0%;">CanonicalUrl:/incidents/2015/6/19/washington-fire/ - Year:2015 - Acres Burned:0.0</div>`)[0];
+            popup_bffd65fb01194c409a68ce717e09c0a1.setContent(html_1dacf42d5b064781bb80e5902abe2cd0);
+        
+
+        circle_7c5210f0aeda4756bbd4cf3317406cfb.bindPopup(popup_bffd65fb01194c409a68ce717e09c0a1)
+        ;
+
+        
+    
+</script>

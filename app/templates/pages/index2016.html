@@ -32,7 +32,7 @@
                 <div class="col-xl-8">
                   <ul class="nav nav-pills justify-content-end">
                     <li class="nav-item mr-2 mr-md-0">
-                      <a href="{{url_for('index')}}" class="nav-link py-2 px-3 active">
+                      <a href="{{url_for('index')}}" class="nav-link py-2 px-3">
                         <span class="d-none d-md-block">
                           2013
                         </span>
@@ -52,7 +52,7 @@
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="{{url_for('index2016')}}" class="nav-link py-2 px-3">
+                      <a href="{{url_for('index2016')}}" class="nav-link py-2 px-3  active">
                         <span class="d-none d-md-block">2016</span>
                         <span class="d-md-none">W</span>
                       </a>
@@ -84,7 +84,7 @@
               <!-- <div class="chart"> -->
                 <!-- Chart wrapper -->
                 <!-- <canvas id="chart-sales" class="chart-canvas"></canvas> -->
-                <iframe src = "{{ url_for('loadMap', path = '2013.html') }} " width = 1200 height = 600 style = "background-color: transparent;"></iframe>
+                <iframe src = "{{ url_for('loadMap', path = '2016.html') }} " width = 1200 height = 600 style = "background-color: transparent;"></iframe>
 
               <!-- </div> -->
             </div>
